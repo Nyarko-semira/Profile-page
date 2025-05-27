@@ -40,12 +40,18 @@ body {
     padding: 20px;
     background-color: white;
 }
+.profile-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
 
 .profile-img {
     width: 100px;
     height: 100px;
-    margin: 10px;
-    margin-left: 80px;
+    margin: 10px ;
+    
 }
 
 .profile-info {
@@ -127,4 +133,28 @@ label {
 }
 .list select{
     border: none;
+}
+
+.main-content{
+    /* margin: 20px 0; */
+    display: flex;
+    align-items: start;
+    gap: 40px;
+
+}
+
+.left-content{
+    flex-basis: 50%;
+    
+    
+}
+
+.right-content{
+    flex-basis: 50%;
+    border-left: 2px solid black;
+    padding-left: 20px;
+}
+
+.subtitle2{
+    text-decoration: underline;
 }
